@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appylaunch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<nav>
+    <a href="index.html"><img class="logo" src="Appylaunch logo/white.png" alt="Appylaunch logo"></a>
+</nav>
+<body>
+    <h1>Welcome to Appylaunch 🚀</h1>
+    <p class="subheading">The happy launchpad for websites and mobile apps.</p>
+</body>
+<!--<button class="submit-app">Submit App</button><br><br>-->
+<form class="signup" action="signup">
+    <h3>Sign up for early access 👇</h3>
+    <label for="email">Email</label><br>
+    <input type="text" name="email" id="name" placeholder="Enter email here.."><br><br>
+    <button>Submit</button>
+    <div id="g_id_onload"
+        data-client_id="YOUR_GOOGLE_CLIENT_ID"
+        data-login_uri="https://your.domain/your_login_endpoint"
+        data-auto_prompt="false">
+    </div>
+    <div class="g_id_signin"
+        data-type="standard"
+        data-size="large"
+        data-theme="outline"
+        data-text="sign_in_with"
+        data-shape="rectangular"
+        data-logo_alignment="left">
+    </div>
+</form>
+<footer>
+    <p class="legal">©2023 Appylaunch, Inc. All rights reserved.</p>
+</footer>
+<link rel="script" href="script.js">
+</html>
